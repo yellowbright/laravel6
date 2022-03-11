@@ -1,0 +1,24 @@
+/*
+    46. privacypolicy termsandconditions #
+ */
+.tou_and_privacy {
+    padding: 4vw 0;
+}
+
+.tou_and_privacy p {
+    font-size: 3.5vw;
+    line-height: 4.5vw;
+    padding: 0 3vw;
+}
+
+.tou_and_privacy h4 {
+    font-weight: bold;
+    padding: 3vw;
+    line-height: initial;
+    color: #f16650;
+    margin: 0;
+}
+
+.tou_and_privacy a {
+    color: #f16650;
+}

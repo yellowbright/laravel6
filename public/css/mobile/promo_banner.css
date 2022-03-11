@@ -1,0 +1,19 @@
+.mobile-promo-banner {
+    float: none;
+    background-color: #53ba83;
+    min-height: 44px;
+    font: 400 3vw Nobel;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 7px 5px;
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+    z-index: 2;
+    -webkit-user-select: text;
+    user-select: text;
+}
+.mobile-promo-banner-home {
+    margin-bottom: 0;
+}

@@ -1,0 +1,25 @@
+/* 32. Payment Page # */
+.pay-pal-img{
+    margin-left:3%;
+    width: 25%;
+}
+.apple-pay-img {
+    margin-left: 3%;
+    width: 15%;
+}
+#pp_payment_option,
+#bc_payment_option,
+#afterpay_div,
+#apple_div {
+    margin-left: 10px;
+}
+#cc_payment_option{
+    margin-left: 10px;
+}
+.remeber-cc{
+    margin-left:5px;
+}
+.credit-card-img{
+    margin-left:3%;
+    width: 15%;
+}

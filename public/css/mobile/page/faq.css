@@ -1,0 +1,42 @@
+/*
+    45. faq #
+*/
+h3.large {
+    font-family: Nobel, sans-serif;
+    font-size: 4vw;
+    font-weight: 600;
+}
+
+h2.section_heading {
+    font-family: Nobel, sans-serif;
+    font-weight: 600;
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    letter-spacing: 0.4vw;
+    text-align: center;
+}
+
+h2.up {
+    font-family: Nobel, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.double_bar {
+    width: 100%;
+    height: 10px;
+    margin: 12px 0;
+    border-top: 1px solid #CBC4C2;
+    border-bottom: 1px solid #CBC4C2;
+    clear: both;
+}
+
+.no-indent {
+    text-indent: 0 !important;
+}
+
+.indent-2 {
+    text-indent: 2em;
+}

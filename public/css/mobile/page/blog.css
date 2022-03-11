@@ -1,0 +1,197 @@
+/* =================================
+   17. Blog page
+   ================================= */
+
+.blog-container .single_bar {
+    height: 1px;
+    margin: 12px 0;
+    border-top: 1px solid #CBC4C2;
+    clear: both;
+}
+
+.main-blog-content h1 {
+    font: 1.231em "Source Sans Pro", sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.006em;
+    text-align: left;
+}
+
+@media (min-width: 322px) {
+    .main-blog-content h1 {
+        letter-spacing: 0.100em;
+    }
+}
+
+.main-blog-content h1 > span {
+    display: block;
+    font-style: italic;
+    color: #5e524d;
+    font-weight: 400;
+    font-size: 0.813em;
+    letter-spacing: normal;
+    text-transform: capitalize;
+    line-height: 2.000em;
+}
+
+.main-blog-content p {
+    margin: 1em 0 1.692em;
+    font-size: 1em;
+}
+
+.main-blog-content a {
+    color: #f16650;
+    text-decoration: underline;
+}
+
+.main-blog-content ol {
+    list-style-type: none;
+    margin: 0.538em 0 0 1.154em;
+    padding: 0;
+    counter-reset: li-counter;
+}
+
+.main-blog-content ol > li{
+    position: relative;
+    margin-bottom: 1.692em;
+    padding-left: 0.5em;
+    min-height: 3em;
+}
+
+.main-blog-content ol > li:before {
+    position: absolute;
+    top: 0.154em;
+    left: -1em;
+    width: 0.8em;
+    font-size: 1em;
+    line-height: 1;
+    font-weight: bold;
+    text-align: right;
+    color: #f16650;
+    content: counter(li-counter) ".";
+    counter-increment: li-counter;
+}
+
+.business-holiday-images {
+    padding: 0.231em 0 0.615em;
+}
+
+.business-holiday-images a {
+    display: block;
+}
+
+.business-holiday-images img {
+    margin: 0 auto;
+}
+
+.business-holiday-images div:last-child img {
+    margin-top: 1.538em;
+}
+
+.preview-categories {
+    margin-bottom: 3.077em;
+    padding-top: 1.385em;
+}
+
+.preview-categories > div {
+    margin-bottom: 2.308em;
+}
+
+.main-blog-content .preview-category-container a {
+    display: block;
+    text-align: center;
+    color: #5e524d;
+    text-decoration: none;
+}
+
+.main-blog-content .preview-category-container div {
+    background-color: #f9f7f4;
+    height: 207px;
+    line-height: 207px;
+    margin: 0 auto 1em;
+    width: 80%;
+}
+
+@media (orientation: landscape) {
+    .main-blog-content .preview-category-container div {
+        width: 55%;
+    }
+}
+
+.main-blog-content .preview-category-container img {
+    margin: 0 auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+.blog-sidebar {
+    margin-bottom: 2.308em;
+}
+
+.blog-sidebar h2 {
+    font: 700 1.077em Nobel;
+    font-style: normal;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.100em;
+}
+
+.blog-mailing-list label {
+    font-size: 0.923em;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.blog-mailing-list .single_bar {
+    margin: 16px 0 15px;
+}
+
+.blog-mailing-list input[name="welcomeEmail"] {
+    float: left;
+    border: 1px solid #a7a6a6;
+    padding: 0.308em 0.077em;
+    width: 73%;
+    color: #5E524D;
+}
+
+.blog-mailing-list .btn {
+    float: right;
+    width: 22%;
+    font: 700 1em/1.077em "Source Sans Pro", sans-serif;
+    padding: 0.538em 0.923em;
+    background-color: #54BA82;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-style: normal;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    text-transform: uppercase;
+    word-spacing: 0.154em;
+    border-collapse: separate;
+    border: none;
+    display: inline-table;
+    margin: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+/* =================================
+   17. End Blog page
+   ================================= */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape){
+
+    /** DESIGNS PAGE */
+    .category_thumb {
+        margin-bottom: 5%;
+    }
+
+    .thumb_wrapper {
+        padding-top: 12%;
+        height: 42vw;
+    }
+
+}

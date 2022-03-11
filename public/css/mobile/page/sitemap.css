@@ -1,0 +1,17 @@
+/*
+    48. sitemap #
+ */
+.left_menu_category {
+    padding: 10px 0 10px 0;
+}
+#left_menu_inner {
+    line-height: 3vh;
+}
+#left_menu_inner a {
+    text-decoration: underline;
+}
+
+.left_menu_outer {
+    padding-left: 20px;
+    padding-bottom: 8px;
+}

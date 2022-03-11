@@ -1,0 +1,252 @@
+/* 56. pc_upsell_details css start # */
+#details.pc_upsell_details { position:relative; display:block; margin:0; clear:both; color:#5e524d; }
+#details.pc_upsell_details .details_panel { display:inline-block; vertical-align:top; width:100vw;     padding: 0 3vw;}
+#details.pc_upsell_details .details_panel .title {font-family:Nobel;font-size:16px;font-weight:bold;color:#5e524d;text-transform:uppercase;margin: 0px;padding: 11px 0px;}
+#details.pc_upsell_details .details_panel form { font-family:"Source Sans Pro", sans-serif; }
+#details.pc_upsell_details .details_panel fieldset { display:block; margin:0; border:0; padding:3px 0; }
+#details.pc_upsell_details ::-webkit-input-placeholder { font-style:normal !important; color:#ccc; }
+#details.pc_upsell_details ::-moz-placeholder { font-style:normal !important; color:#ccc; opacity:1; }
+#details.pc_upsell_details :-moz-placeholder { font-style:norma !important; color:#ccc; opacity:1; }
+#details.pc_upsell_details :-ms-input-placeholder { font-style:normal !important; color:#ccc; opacity:1; }
+#details.pc_upsell_details .details_panel fieldset.quantity { padding-top:15px; font-size:16px; font-weight:600; }
+#details.pc_upsell_details .details_panel fieldset.quantity span { font-weight: bold; }
+#details.pc_upsell_details .details_panel label { display: inline-block; font-family:"Source Sans Pro", sans-serif; font-size:16px; font-weight:600; color:#5e524d; text-transform:uppercase; padding-bottom:5px; cursor:default !important; }
+#details.pc_upsell_details .details_panel span { font-size:14px; font-weight:400; text-transform:initial; }
+#details.pc_upsell_details .details_panel input { width:98%; height:30px; border:1px solid #ddd; font-size:15px;padding:0 0 0 5px; }
+#details.pc_upsell_details .details_panel input:focus { border: 1px solid #6985CC; box-shadow: 0 0 3px #6985CC; }
+#details.pc_upsell_details .details_panel input[type=number] { display:inline-block; vertical-align:middle; width:34px; height:34px; text-align:center;font-weight:bold; margin:0 5px; padding:0; }
+#details.pc_upsell_details .details_panel button { display:block; margin:15px 0 25px 0; padding:0; background-color:#56b983; border:0; width:100%; height:45px; font-family: Nobel; font-size:16px; line-height:45px; color:#fff; text-align:center; text-transform:uppercase;cursor:pointer; }
+#details.pc_upsell_details .details_panel .desc .title { font-family:"Source Sans Pro", sans-serif; font-size:15px; font-weight:600; color:#5e524d; margin-bottom:5px;text-transform:capitalize; }
+#details.pc_upsell_details .details_panel .desc { font-size:13px; }
+#details.pc_upsell_details .details_panel .link-icon .link-active { display: none; }
+#details.pc_upsell_details .details_panel .group-active span { color: #6985CC; }
+#details.pc_upsell_details .details_panel .group-active .link-icon .link-active { display: inline; }
+#details.pc_upsell_details .details_panel .group-active .link-icon .link-inactive { display: none; }
+#details.pc_upsell_details .details_panel .step_personalize .selectric {width: 98%}
+#details.pc_upsell_details .required{display: inline-block;	padding: 0px 5px;}
+#details.pc_upsell_details .characterLimit{display: inline-block;	float: right;	color: #a6a0a0;}
+#details.pc_upsell_details .error_note{margin-top: 5px;float:right;color: #f00;}
+#details.pc_upsell_details .lowercase{text-transform: lowercase;}
+#details.pc_upsell_details .uppercase{text-transform: uppercase;}
+#details.pc_upsell_details #main_image_div{display: block;font-family: "Source Sans Pro", sans-serif;color: #5E524D;line-height: 1.2;font-weight: 400;-webkit-text-size-adjust: none;user-select: none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);text-align: center;box-sizing: border-box;border: 0;vertical-align: middle;outline: none !important;font-size: 3.7vw;width: 100vw;height: auto;max-height: none;margin:auto;position: absolute;top:0;bottom: 0;left:0;right: 0;}
+#details.pc_upsell_details #details_preview.white #main_image_div{width:75vw;}
+#details.pc_upsell_details .multi_views {
+    padding: 20px 0 10px;
+    text-align: center;
+    width: 100vw;
+}
+.pc_upsell_details .pesonalize.btn{
+    -webkit-text-size-adjust: none;
+    display: inline-block;
+    margin: 15px 0 25px 0;
+    padding: 0;
+    width: 48%;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+
+    background-color: #54BA82;
+    font-family: Nobel;
+    font-weight: bold !important;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: 1px solid #fff !important;
+    -webkit-appearance: none;
+    border-radius: 0;
+    color: #fff;
+}
+.pc_upsell_details .back.btn{
+    -webkit-text-size-adjust: none;
+    display: inline-block;
+    margin: 15px 0 25px 0;
+    padding: 0;
+    background-color: #b5b7b6;
+    width: 48%;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    font-family: Nobel;
+    font-weight: bold !important;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: 1px solid #fff !important;
+    -webkit-appearance: none;
+    border-radius: 0;
+    color: #fff;
+}
+#details.pc_upsell_details .details_panel #addCartButton{
+    display: inline-block;
+    width: 48%;
+    float: right;
+    background-color: #54BA82;
+    font-family: Nobel;
+    font-weight: bold !important;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: 1px solid #fff !important;
+    -webkit-appearance: none;
+    border-radius: 0;
+    color: #fff;
+    height: 45px;
+    margin: 15px 0 25px 0;
+}
+#details.pc_upsell_details .details_panel #addCartButton .txt{
+    background-color: #54BA82;
+    font-family: Nobel;
+    font-weight: bold !important;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    -webkit-appearance: none;
+    color: #fff;
+    font-size: 16px !important;
+    text-align: center;
+    padding: 0;
+    line-height: 32px;
+}
+#details.pc_upsell_details #btn_loading{
+    width: 28px;
+    margin: auto;
+    padding: 0;
+    padding-top: 2px;
+    display: none;
+}
+.pc_upsell_details .btn.disable{
+    opacity: 0.5;
+}
+.pc_upsell_details .buttons{
+    clear: both;
+    width: 100%;
+    height: 80px;
+}
+
+.pc_upsell_details #details_preview{
+    width: 100vw;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #5E524D;
+    line-height: 1.2;
+    font-weight: 400;
+    -webkit-text-size-adjust: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #f3efea;
+    font-size: 3.7vw;
+    vertical-align: middle;
+    position: relative;
+    overflow: hidden;
+    height: 100vw !important;
+}
+.pc_upsell_details #details_preview.white {
+    background-color: white;
+}
+.pc_upsell_details_panel .desc .design_name{
+    white-space: nowrap;
+    margin-top: 10px;
+}
+.pc_upsell_details_panel .desc ul{
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+.pc_upsell_details_panel .satisfaction-guarantee{
+    display: none;
+}
+
+.pc_upsell_category .thumb_wrapper{
+    height: 49.5vw;
+    width: 49.5vw;
+    padding: 0;
+}
+.pc_upsell_category .pc_upsell img{
+    width:100%;
+}
+
+.selection_product{
+    cursor: pointer;
+    font: inherit;
+    margin: 5px 0 5px;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: auto;
+    line-height: 1;
+    -webkit-text-size-adjust: none;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: inset 0 0 0 1px #ccc4c2;
+    overflow: auto;
+    padding: 11px;
+}
+.selection_product.selected{
+    box-shadow: inset 0 0 0 2px #54ba82;
+    color: #5e524d;
+}
+.selection_product.disabled,
+.selection_product.disabled .sale_price,
+.selection_product.disabled .orig_price {
+    color: #ccc !important;
+    opacity: 0.5;
+}
+
+#details.pc_upsell_details .multi_views_small {
+    /*border:2px solid #33d3b8;*/
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1vw;
+}
+#details.pc_upsell_details .multi_views_small:last-child {
+    margin-right: 0;
+}
+#details.pc_upsell_details .multi_views_small_inner {
+    width: 18vw;
+    height: 18vw;
+    line-height: 120px;
+    text-align: center;
+    border: 2px solid #dddddd;
+    margin-bottom: 5px;
+    background-color: #f3efea;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+#details.pc_upsell_details .multi_views_small_inner img {
+    width:  100%;
+    height: auto;
+}
+
+#details.pc_upsell_details .multi_views .selected {
+    border-color: rgb(84, 186, 130);
+}
+
+#details.pc_upsell_details .multi_views_dc_overlay_1 {
+    display: inline-block;
+    z-index: 1;
+    max-width: 104px;
+    max-height: 104px;
+    height: auto;
+}
+
+#details.pc_upsell_details .multi_views_small_img_1 {
+    max-width: 104px;
+    max-height: 104px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#details.pc_upsell_details .multi_views_small_img_2 {
+    left: 4.6874998703124%;
+    top: 34.687499870312%;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#details.pc_upsell_details .multi_views_small_img_shot {
+    width: 104px;
+    height: 104px;
+    margin: 0 auto;
+}
+/* 56.. pc_upsell_details css end */

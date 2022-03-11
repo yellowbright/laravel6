@@ -1,0 +1,630 @@
+/**
+ * 12. Filtration tray
+ **/
+/* 12.1. Filter Menu */
+
+.filtersubmenu .checkbox {
+    display: block;
+    margin:0;
+    font-size:3.4vw;
+}
+.filtersubmenu label > * {
+    pointer-events: none;
+}
+.filtersubmenu label.checkbox:before {
+    background: url("//cdn.simplytoimpress.com/images/template/icons/sti_checkbox.gif") no-repeat;
+    background-size: 100% 200%;
+    background-position: 0 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 4.0vw;
+    height: 4.0vw;
+    border: 1px solid #969696;
+    margin:0 2.98vw 0 0;
+    top:0;
+}
+.filtersubmenu input[type=checkbox]:checked ~ label:before {
+    background-position: 0 100%;
+}
+
+.filtersubmenu .filtration_checkbox[data-filter-estimate] ~ label div.tooltip {
+    position:relative;
+    display: inline-block;
+    font-weight: 400;
+    font-family: "Source Sans Pro", sans-serif;
+    color:#4d4c4c;
+    margin: 0 0 0 3px;
+    font-size: 3.4vw;
+    z-index: 0;
+    opacity:1;
+}
+
+.filtersubmenu .filtration_checkbox[data-filter-estimate] ~ label div.tooltip:before {
+    content: "(";
+}
+
+.filtersubmenu .filtration_checkbox[data-filter-estimate] ~ label div.tooltip:after {
+    content: ")";
+}
+
+.filtersubmenu .filtration_checkbox[data-filter-estimate="0"] ~ label div.tooltip,
+.filtersubmenu .filtration_checkbox[data-filter-estimate="0"] ~ label  {
+    opacity: 0.35;
+    cursor: default;
+}
+
+.filtersubmenu .reset-apply {
+    padding:15px;
+    font-size:16px;
+    font-weight:bold;
+    border-bottom:1px solid #5E524D;
+    text-transform: uppercase;
+    overflow:hidden;
+}
+
+.filtersubmenu .submenu {
+    margin:15px;
+    background-color:#fff;
+    border:1px solid #5E524D;
+    border-radius:3px;
+}
+
+.filtersubmenu .submenu .headerbar {
+    position:relative;
+    padding:3.5vw;
+    border-top:2px solid #ccc;
+}
+.filtersubmenu .submenu .headerbar:first-child {
+    border-top:0;
+}
+.filtersubmenu .submenu .headerbar a {
+    display:block;
+    font-size:3.8vw;
+    color:#54BA82;
+}
+.filtersubmenu .submenu .headerbar .numoffilters {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size:3.6vw;
+    font-weight:400;
+    color:#4d4c4c;
+    text-transform: lowercase;
+}
+
+.filtersubmenu .show_list .down-arrow {
+    float:right !important;
+    border: solid #54BA82;
+    border-width: 0 0.75vw 0.75vw 0;
+    display: inline-block;
+    padding: 1.2vw;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin: -0.4vw 2.0vw 0 0;
+}
+.filtersubmenu .show_list.collapsed .down-arrow {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    margin-top:0.4vw;
+}
+
+.filtersubmenu .list ul {
+    margin:0;
+    padding:0;
+}
+.filtersubmenu .list ul li {
+    font-size: 3.4vw;
+    padding: 3.1vw 2.0vw 3.3vw 4.4vw;
+    border-top:1px solid #ccc;
+}
+.filtersubmenu .list ul > li:first-child {
+    border-top:2px solid #ccc;
+}
+
+
+
+.art-prints-sort h3{
+    margin: 0 5px 0 31px;
+    font-size: 18px;
+}
+
+#sort_container {
+    text-align: left;
+    float: left;
+    height: 100%;
+    width: 190px;
+    border-top: 1px solid #CBC4C2;
+    padding-top: 13px;
+}
+.sort_menu {
+    width: 190px; /*width of menu*/
+}
+.sort_menu h3,
+.headerbar a {
+    font-family: Nobel, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.headerbar a {
+    color: #54BA82;
+    font-size: 14px;
+}
+.headerbar {
+    display:block;
+    clear:both;
+}
+.sort_menu h3 {
+    margin-top: 0;
+}
+.sort_menu .cardsFound {
+    outline: none;
+    padding: 5px 0 5px 0;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 12px;
+    font-family: Nobel, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #5e524d;
+    background-color: #F3F0EB;
+    width: 126px;
+}
+.fav-up-arrow,
+.fav-down-arrow {
+    border-color: #FFFFFF transparent;
+}
+.up-arrow,
+.down-arrow {
+    border-color: #CBC4C2 transparent;
+}
+.right-arrow {
+    border-color: transparent transparent transparent #CBC4C2;
+}
+.up-arrow,
+.down-arrow,
+.fav-up-arrow,
+.fav-down-arrow,
+.right-arrow {
+    border-style: solid;
+    height: 0;
+    width: 0;
+}
+.up-arrow,
+.fav-up-arrow {
+    border-width: 0 6px 12px 6px;
+    margin: 4px 4px 0 0;
+}
+.down-arrow,
+.fav-down-arrow {
+    border-width: 11px 6px 0 6px;
+    margin: 4px 6px 0 -2px;
+}
+.right-arrow {
+    border-width: 6px 0 6px 11px;
+    margin: 2px 7px 0 -2px;
+}
+.list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 10px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #5E524D;
+}
+.list ul li {
+    padding: 0;
+}
+input[type=radio],
+input[type=checkbox] {
+    display: none;
+}
+label.checkbox:before {
+    background-image: url("//cdn.simplytoimpress.com/images/template/icons/optimized/radio-check-sprite.png");
+    background-position: 0 0;
+    content: "";
+    display: inline-block;
+    width: 19px;
+    height: 20px;
+    margin-right: 10px;
+    position: relative;
+    left: 0;
+    top: 6px;
+}
+
+input[type=radio] + label {
+    padding: 0;
+    line-height: 2.0;
+    height:auto;
+    padding-left:37px !important;
+}
+
+input[type=radio] + label small {
+    display: block;
+    font-style: italic;
+    color: gray;
+}
+
+label.radio:before {
+    background-image: url("//cdn.simplytoimpress.com/images/template/icons/optimized/radial_mobile_sti.png");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    content: "";
+    display: inline-block;
+    height: 19px;
+    left: 6px;
+    margin-right: 15px;
+    position: relative;
+    top: 6px;
+    width: 19px;
+    margin-left:-35px !important;
+}
+input[type=radio]:checked + label:before {
+    background-position: 19px 0;
+}
+input[type=checkbox]:checked ~ label:before {
+    background-position: -19px 20px;
+}
+label {
+    cursor: pointer !important;
+}
+
+#frmContact label{
+    display:block;
+}
+
+/**
+ * 13. Filter Nav.
+ **/
+#loading {
+    display: none;
+}
+
+.thumbs-loading {
+    color: #F7941E;
+}
+
+.thumbs-loading > div {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.thumbs-loading img {
+    -webkit-box-shadow: 5px 5px 5px #555555;
+    -moz-box-shadow: 5px 5px 5px #555555;
+    box-shadow: 5px 5px 5px #555555;
+}
+
+.rotate90 {
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+}
+
+
+#Section4,
+#Section5,
+#Section6,
+#Section9,
+#Section10,
+#Section11,
+#Section12,
+#filterOrientationPanel,
+#filterShapePanel,
+#filterColorPanel {
+    clear:both;
+    overflow:hidden;
+}
+
+/**
+ * Shape Filter
+ **/
+
+
+#Section4 label.checkbox span,
+#filterShapePanel label.checkbox span {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 38px;
+    margin-right: 10px;
+    position: relative;
+    left: 0;
+    background-image: url("//cdn.simplytoimpress.com/images/die_cut_assets/optimized/2018/shape_sprite_mobile.png");
+    background-size: 420px;
+    background-repeat: no-repeat;
+}
+
+
+#Section4 label.checkbox .rectangle,
+#filterShapePanel label.checkbox .rectangle {
+    background-position: 0 0;
+}
+
+#Section4 label.checkbox .rounded-rectangle,
+#filterShapePanel label.checkbox .rounded-rectangle {
+    background-position: -30px 0;
+}
+
+#Section4 label.checkbox .rounded-corners,
+#filterShapePanel label.checkbox .rounded-corners {
+    background-position: -30px 0;
+}
+
+#Section4 label.checkbox .tall_braces,
+#filterShapePanel label.checkbox .tall_braces {
+    background-position: -60px 0;
+}
+
+#Section4 label.checkbox .tall-braces,
+#filterShapePanel label.checkbox .tall-braces {
+    background-position: -60px 0;
+}
+
+#Section4 label.checkbox .scallop-rectangle,
+#filterShapePanel label.checkbox .scallop-rectangle {
+    background-position: -90px 0;
+}
+
+#Section4 label.checkbox .scallop,
+#filterShapePanel label.checkbox .scallop {
+    background-position: -90px 0;
+}
+
+#Section4 label.checkbox .radius-rectangle,
+#filterShapePanel label.checkbox .radius-rectangle {
+    background-position: -120px 0;
+}
+
+#Section4 label.checkbox .radius,
+#filterShapePanel label.checkbox .radius {
+    background-position: -120px 0;
+}
+
+#Section4 label.checkbox .tall_deco,
+#filterShapePanel label.checkbox .tall_deco {
+    background-position: -330px 0;
+}
+
+#Section4 label.checkbox .deco,
+#filterShapePanel label.checkbox .deco {
+    background-position: -330px 0;
+}
+
+#Section4 label.checkbox .square,
+#filterShapePanel label.checkbox .square {
+    background-position: -210px 0;
+}
+
+#Section4 label.checkbox .rounded-square,
+#filterShapePanel label.checkbox .rounded-square {
+    background-position: -240px 0;
+}
+
+#Section4 label.checkbox .rounded-corners-square,
+#filterShapePanel label.checkbox .rounded-corners-square {
+    background-position: -240px 0;
+}
+
+#Section4 label.checkbox .braces-square,
+#filterShapePanel label.checkbox .braces-square {
+    background-position: -270px 0;
+}
+
+#Section4 label.checkbox .square-braces,
+#filterShapePanel label.checkbox .square-braces {
+    background-position: -270px 0;
+}
+
+#Section4 label.checkbox .circle,
+#filterShapePanel label.checkbox .circle {
+    background-position: -300px 0;
+}
+
+#Section4 label.checkbox .deckle,
+#filterShapePanel label.checkbox .deckle {
+    background-position: -360px 0;
+}
+
+#Section4 label.checkbox .geo,
+#filterShapePanel label.checkbox .geo {
+    background-position: -150px 0;
+}
+
+#Section4 label.checkbox .petal,
+#filterShapePanel label.checkbox .petal {
+    background-position: -180px 0;
+}
+
+/**
+ * 15. Photo Orientation Filter
+ **/
+
+#Section5 label.checkbox span,
+#filterOrientationPanel label.checkbox span {
+    background-image: url("//cdn.simplytoimpress.com/images/die_cut_assets/optimized/2018/shape_sprite_mobile.png");
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 38px;
+    position: relative;
+    left: 0;
+    background-size: 420px;
+    margin-right: 10px;
+}
+#Section5 label.checkbox .portrait,
+#filterOrientationPanel label.checkbox .portrait {
+    background-position: 0 0;
+}
+#Section5 label.checkbox .landscape,
+#filterOrientationPanel label.checkbox .landscape {
+    background-position: 0 0;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+}
+#Section5 label.checkbox .square,
+#filterOrientationPanel label.checkbox .square {
+    background-position: -210px 0;
+}
+
+
+/**
+ * 16. Color Selections Filter
+ **/
+#Section6,
+#filterColorPanel {
+    clear:both;
+    /*height: 175px;*/
+}
+.art-print-filters #Section6,
+#filterColorPanelt-filters #Section6 {
+    height: 140px;
+}
+
+#Section6 label.checkbox span,
+#filterColorPanel label.checkbox span {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 0;
+    top: 6px;
+    margin-right:10px;
+}
+
+/* ALL */
+#Section6 label.checkbox span,
+#filterColorPanel label.checkbox span  {
+    border: solid 1px #919396;
+    box-shadow: none;
+}
+
+/** WHITE */
+#Section6 label.checkbox .white,
+#filterColorPanel label.checkbox .white {
+    background-color: #fff;
+}
+
+/** BLACK */
+#Section6 label.checkbox .black,
+#filterColorPanel label.checkbox .black {
+    background-color: #000;
+}
+
+/** GRAY */
+#Section6 label.checkbox .gray,
+#filterColorPanel label.checkbox .gray {
+    background-color: #616161;
+}
+
+/** BROWN */
+#Section6 label.checkbox .brown,
+#filterColorPanel label.checkbox .brown {
+    background-color: #653e22;
+}
+
+/** BEIGE */
+#Section6 label.checkbox .beige,
+#filterColorPanel label.checkbox .beige {
+    background-color: #ecddca;
+}
+
+/** GREEN */
+#Section6 label.checkbox .green,
+#filterColorPanel label.checkbox .green {
+    background-color: #8cc987;
+}
+
+/** YELLOW */
+#Section6 label.checkbox .yellow,
+#filterColorPanel label.checkbox .yellow {
+    background-color: #ffe67e;
+}
+
+/** ORANGE */
+#Section6 label.checkbox .orange,
+#filterColorPanel label.checkbox .orange {
+    background-color: #f98451;
+}
+
+/** RED */
+#Section6 label.checkbox .red,
+#filterColorPanel label.checkbox .red {
+    background-color: #cc3333;
+}
+
+/** PINK */
+#Section6 label.checkbox .pink,
+#filterColorPanel label.checkbox .pink {
+    background-color: #ffa8bb;
+}
+
+/** TEAL */
+#Section6 label.checkbox .teal,
+#filterColorPanel label.checkbox .teal {
+    background-color: #62d8d9;
+}
+
+/** BLUE */
+#Section6 label.checkbox .blue,
+#filterColorPanel label.checkbox .blue {
+    background-color: #4992d0;
+}
+
+/** PURPLE */
+#Section6 label.checkbox .purple,
+#filterColorPanel label.checkbox .purple {
+    background-color: #c089c2;
+}
+
+/** GOLD */
+#Section6 label.checkbox .gold,
+#filterColorPanel label.checkbox .gold {
+    background-color: #c09b53;
+}
+
+/** SILVER */
+#Section6 label.checkbox .silver,
+#filterColorPanel label.checkbox .silver {
+    background-color: #AEAEAE;
+}
+
+/** MULTI-COLOR */
+#Section6 label.checkbox .multi-color,
+#filterColorPanel label.checkbox .multi-color {
+    background: url(https://cdn.planetart.com/images/rectangle_multicolor_mobile.png) 0 0 / 100% 100% no-repeat;
+}
+
+.art-prints-sort #artPrintThemeSection {
+    margin-bottom: 55px;
+}
+
+
+.checkbox label {
+    margin-bottom: 10px;
+}
+.checkbox label:before {
+    border-radius: .75vw;
+}
+#details_panel .checkbox {
+    height: 19px;
+    left: 1px;
+    margin-right: 15px;
+    position: relative;
+}
+#details_panel label.checkbox:before {
+    bottom: -5px;
+}

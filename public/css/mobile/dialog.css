@@ -1,0 +1,240 @@
+/* 22. UI Dialog Styling */
+.ui-dialog * {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.leaveNoteCont.ui-draggable {
+    position: absolute !important;
+}
+
+.ui-dialog {
+    background-color: #FFF;
+    box-shadow: 0 0 10px #aaa;
+    clear:both;
+}
+
+.ui-loading-dialog {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.ui-dialog-content {
+    color: #5e524d!important;
+
+    width: 90%!important;
+    margin: 0 auto !important;
+}
+
+#dlgEaMsgWin.ui-dialog-content, #itemActionDialog.ui-dialog-content { /* Need to be more specific when using !important, otherwise it makes it impossible to change other styles in css */
+    width:90% !important;
+}
+.ui-dialog .ui-dialog-buttonpane {
+    text-align:center !important;
+}
+.ui-dialog-buttonset {
+    width: 100% !important;
+    margin: 0 auto !important;
+    text-align: center;
+}
+.ui-dialog.mobile-dlgEaMsgWin {
+    height:auto !important;
+}
+.ui-dialog:not(.mobile-dlgEaMsgWin) .ui-widget-header {
+    background-image: none;
+    border: none;
+    border-radius: 0;
+    background-color: #fff;
+    font-size: 22px;
+    color: #323232;
+    text-align: center;
+    padding: 0 0 0 0!important;
+}
+.ui-dialog:not(.mobile-dlgEaMsgWin) .ui-dialog-title {
+    padding: 5vw 0!important;
+    display: inline-block;
+    font-family: 'Nobel', 'Source Sans Pro', sans-serif;
+    font-size: 4.5vw;
+    text-transform: uppercase;
+    color: #5e524d;
+    font-weight: bold;
+    overflow: visible !important;
+}
+.postagewarning .ui-dialog-title {
+    font-size: 4.1vw !important;
+}
+.ui-dialog .ui-dialog-content {
+    position: relative;
+    border: 0;
+    background: none;
+    zoom: 1;
+    font-size: 14px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+.ui-state-hover {
+    background: none!important;
+    border: 1px solid #aaa !important;
+    border-radius: 0 !important;
+}
+.ui-slider .ui-slider-handle.ui-state-hover {
+    background: #fff none !important;
+    border: .75vw solid #b0b0b0!important;
+    border-radius: 10px!important;
+}
+.ui-dialog {
+    border-radius: 0!important;
+    border: none!important;
+}
+.ui-widget textarea {
+    border-radius: 0;
+}
+.ui-widget textarea:hover {
+    border: 1px solid #cacaca!important;
+}
+.ui-button.ui-state-default,
+.ui-button.ui-state-hover, .ui-button.ui-state-focus {
+    border: none!important;
+    background-image: none!important;
+    background-color: #3bac6a!important;
+    color: #fff!important;
+    cursor: pointer;
+    border-radius: 0!important;
+    text-transform: uppercase;
+}
+.ui-dialog-content input[type="submit"].re-upload,
+.ui-dialog-content input[type="submit"].continue {
+    margin: 5px 10px;
+    background-image: none;
+    height: 40px;
+    line-height: 38px;
+    padding: 0;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    background-color: #3bac6a;
+    width: 190px;
+    font-size: 15px;
+}
+.ui-dialog-buttonset button {
+    margin: 5px 10px !important;
+    background-image: none;
+    height: 40px;
+    line-height: 38px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    background-color: #3bac6a;
+    font-size: 15px;
+    font-weight:bold;
+    padding: 0 10px;
+}
+
+a.ui-dialog-titlebar-close,
+button.ui-dialog-titlebar-close,
+.ui-icon.ui-icon-closethick {
+    width: 14vw!important;
+    height: 14vw!important;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAABFCAMAAAArU9sbAAAAY1BMVEUAAACnp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6f////7+/u7u7uurq7v7+/Nzc3BwcHe3t7w8PDq6urZ2dnGBjRIAAAAFXRSTlMA9d69JI2CVETo1c/DtZ15d2NgNiy6n9JKAAAB00lEQVRYw63Y226DMAwGYOdAArQFVvjbnbf3f8pJXCxyITXg/LdBn5QAiR3Kx8e+c21jYJrWdX30tDt1cAY8xoV6DzENDutxw7TRGCuLfGw1khwfkpFxgpeQ6xlyztenhq8MtsRUPo/UF2zNJfu64gnbc4rryIvFntiXVaTBvjQrTLTYGxsXC3vC/pxqjvgLjuTimVLhWCr2xZqDirkmxJ9xNOc0pwCW15835PL5Cp7wvxVYjtxv74xhY/cHxo5paTly4wwfSwxb4MkukMQskAVjp1kZ+MTvt8QskDk/YBlmxT08yxl5wM3fPoSnJR31/JoFRkIQ0oRyjIzAEXkDgZEQGE8REBgJASL1EBgZQU8dJEZE0JGDxHxKCBy1kJibhKClBgIjI2jIQGBkBIaALcz3MwQgU0Ax1BSYUUNtgdVtyRV40466Al9dR32BP6CnWOBvjOSNemcwnsipdylHREG9YwYiqtW791wLOeVJ4tLZqDjVhnROy0huyE4rNcNHDknM12pRNlrOPKs8FogdUy3FmWdV0AOCkKvrPhKyZH4f67psjfl2qMbU17v62lvfBxTvSfT9kb5X0/eN+h62ZD+t7+319wz6O4/S9y/l74L091J/Lmwzhh3I/uwAAAAASUVORK5CYII=) !important;
+    background-repeat: no-repeat;
+    background-position: 50% 50% !important;
+    background-size: 4.95vw;
+    margin: 0 !important;
+    padding: 0;
+    position: absolute;
+    top: 0 !important;
+    right: 0 !important;
+    border-radius: 10px;
+    border: none;
+    color: transparent;
+    outline: none;
+}
+
+.ui-dialog[aria-describedby="login_dialog_password"] button.ui-dialog-titlebar-close {
+    background:url(data:image/gif;base64,R0lGODlhMQAxANUAAAAAAP///9/f393d3dzc3NjY2NbW1tXV1dTU1NPT09DQ0M3NzczMzMvLy8rKysnJycjIyMfHx8DAwL+/v76+vr29vbq6uri4uLe3t7W1tbOzs6+vr56enpubm5mZmZeXl5WVlf///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAACEALAAAAAAxADEAAAb/wIAwQIkMj8ikcnlUWJQPECjBrFqRBKkEGZVOr+Bl1rsVdr2gQ3gtHKC1gcrbS2Vfx/MMZO5F2Kt4c1sJfFJ+f0mBbw5DhIUGiEeKaIxHB4Ugh4iTXgxKjnyabJxSlUoImHVrpCANVqiFamFuha5XBqlgrAtrsHyqYpi2vZiiWMKIoHPGQqymf5eFxqyekULKb5rU1kfYaGoCmM/cAb5zFMjkSOaYaMPqR+zt7/Dx7V709ZYemB/V+ksmYMoAkMkADpg6yCoo6Z4hhkNYLYMoMVRBVhmK6dtWIJc6VsPkeVkYiRYfeiKlkLQD8pRHlulcSoNZaFwSb31WYfpXJZrFUDs71/icCEicHZwPg9VClPJLEpNz8hGLdawQL25NVbVUlzWAgphcMT24ULMg0g0BJMzhqW+olAtD1HqxqU8Z3CNy6QJ0dBcJhjIQjzzQcCQIADs=) no-repeat center !important;
+    width: 14vw!important;
+    height: 14vw!important;
+    background-size: 4.95vw !important;
+}
+
+.ui-dialog.mobile-dlgEaMsgWin a.ui-dialog-titlebar-close,
+.ui-dialog.mobile-dlgEaMsgWin button.ui-dialog-titlebar-close,
+.ui-dialog.mobile-dlgEaMsgWin .ui-icon.ui-icon-closethick {
+    width:12px !important;
+    height:12px !important;
+}
+
+a.ui-dialog-titlebar-close {
+    background-image: none !important;
+}
+
+.ui-icon.ui-icon-closethick {
+    border: none;
+}
+
+.ui-dialog-titlebar-close .ui-button-text {
+    color: transparent!important;
+}
+.ui-button.ui-state-default.ui-dialog-titlebar-close,
+.ui-button.ui-state-hover.ui-dialog-titlebar-close, .ui-button.ui-state-focus.ui-dialog-titlebar-close {
+    background-color: transparent!important;
+}
+
+.ui-widget-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000 url(/templates/css/images/ui-bg_flat_35_000000_40x100.png) 50% 50%;
+    opacity: .3;
+    filter: Alpha(Opacity=30);
+}
+
+/* 22.1 UI Dialogs */
+.ui-dialog { z-index: 10000;}
+.ui-front { z-index: 10000; }
+
+/* 22.2 Overrides for resized EA dialog with ridiculous important usage  */
+
+.dialog-ea-mobile-resized .ui-dialog-titlebar-close,
+.dialog-ea-mobile-resized .ui-icon.ui-icon-closethick {
+    height: 100% !important;
+    width: 7vw !important;
+    margin: 0 !important;
+    top: 0 !important;
+    padding: 0 !important;
+}
+
+.dialog-ea-mobile-resized .ui-dialog-titlebar-close {
+    right: 3vw !important;
+}
+
+.dialog-ea-mobile-resized .ui-icon.ui-icon-closethick {
+    background-size: 5vw;
+}
+
+/* 22.3 Desktop dialogs for Mobile version */
+#leaveANoteContainer form div,
+#leaveANoteContainer form textarea {
+    width: 100%!important;
+}
+#leaveANoteContainer form textarea {
+    min-height: 200px;
+}
+#leaveANoteContainer form div {
+    color: #878585;
+    padding: 10px 0 !important;
+}
+#leaveANoteContainer form div.clear {
+    padding: 0 0 5px 0 !important;
+}
+#leaveANoteContainer {
+    padding: 10px 0 0 0!important;
+}
+/* 22.3. End Desktop dialogs for Mobile version */
+
+/* 22. End UI Dialog Styling */

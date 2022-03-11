@@ -1,0 +1,31 @@
+/* 25. Create Account # */
+.create-title{
+    font-weight:bold;
+    color:#4d4c4c;
+    margin-top:-10px;
+}
+label{
+    color:#4d4c4c;
+    font-weight: 400;
+}
+#select_parent{
+    color:#4d4c4c;
+    border: 1px solid #cacaca;
+    padding: 10px;
+    font-size: 14px;
+}
+.sms-text{
+    font-size: 14px;
+    margin-left: -10px;
+    color: #787878;
+    margin-top: 10px;
+}
+.sms{
+    font-size:1rem;
+    width:20%;
+    margin-right:5%;
+}
+
+.sms-row{
+    margin-left:20%;
+}

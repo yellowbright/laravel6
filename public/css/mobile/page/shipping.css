@@ -1,0 +1,37 @@
+/*
+    47. shipping #
+ */
+.shipping_table1 {
+    width: 90%;
+    margin: 5px auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+.art-prints-shipping-table {
+    margin-top: 29px;
+}
+.col1 {
+    font-family: Nobel, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.shipping_table2 {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: left;
+    border-collapse: collapse;
+    font-weight: normal;
+    font-size: 14px;
+}
+.right {
+    float: right;
+}
+.bar {
+    margin: 0 auto;
+    width: 95%;
+    height: 7px;
+    border-top: 1px solid #CBC4C2;
+    clear: both;
+}

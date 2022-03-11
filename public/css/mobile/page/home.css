@@ -1,0 +1,307 @@
+.mobile-hero-banner {
+    margin-bottom: 10px;
+    padding: 0;
+}
+.mobile-featured-left {
+    padding-left: 0;
+    padding-right: .75vw;
+}
+.mobile-featured-right {
+    padding-left: .75vw;
+    padding-right: 0;
+}
+.mobile-featured-bottom {
+    padding: 0;
+}
+.mobile-featured-left span, .mobile-featured-right span, .mobile-featured-bottom span {
+    display: block;
+    font-weight: 700;
+    font-size: 3.2vw;
+    font-family: Nobel, serif;
+    text-transform: uppercase;
+    color: #f3694f;
+    margin: 13px 0 18px;
+    line-height: 1.3em;
+}
+.whySTI {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.whySTI .calendar {
+    position: absolute;
+    text-align: center;
+    top: 48%;
+    left: 50%;
+    transform: translate(-54%, -5%);
+    height: 14vw;
+    display: flex;
+    flex-direction: column;
+}
+.whySTI .calendar .cal_h2 {
+    font-family: Nobel, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 4vw;
+    position: relative;
+    letter-spacing: 0.08em;
+}
+#cal_day {
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 1vw;
+}
+.cal {
+    display: inline-block;
+    height: 100%;
+    width: 49%;
+    vertical-align: top;
+    background-image: url(//cdn1.simplytoimpress.com/images/home/bodoni_numerals.png);
+    background-size: auto 100%;
+    background-position: 0 center;
+    max-width: 7vw;
+}
+.cal.num1 {
+    background-image: url("//cdn1.simplytoimpress.com/images/home/bodoni_numerals.png");
+    background-position: 11% center;
+}
+.cal.num2 {
+    background-image: url("//cdn.simplytoimpress.com/images/home/bodoni_numerals.png");
+    background-position: 22% center;
+}
+.cal.num3 {
+    background-image: url("//cdn.simplytoimpress.com/images/home/bodoni_numerals.png");
+    background-position: 33% center;
+}
+.cal.num4 {
+    background-image: url("//cdn.simplytoimpress.com/images/home/bodoni_numerals.png");
+    background-position: 44% center;
+}
+.cal.num5 {
+    background-image: url("//cdn.simplytoimpress.com/images/home/bodoni_numerals.png");
+    background-position: 56% center;
+}
+.cal.num6 {
+    background-image: url("//cdn.simplytoimpress.com/images/home/bodoni_numerals.png");
+    background-position: 67% center;
+}
+.cal.num7 {
+    background-image: url("//cdn.simplytoimpress.com/images/home/bodoni_numerals.png");
+    background-position: 78% center;
+}
+.cal.num8 {
+    background-image: url("//cdn.simplytoimpress.com/images/home/bodoni_numerals.png");
+    background-position: 89.5% center;
+}
+.cal.num9 {
+    background-image: url("//cdn.simplytoimpress.com/images/home/bodoni_numerals.png");
+    background-position: 100% center;
+}
+.whySTI .nocal_link {
+    color: #FFFFFF;
+    font-family: Nobel, serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.16em;
+    position: absolute;
+    right: 10px;
+    text-transform: uppercase;
+    bottom: 20px;
+    display: block;
+}
+.whySTI .lightning {
+    right: 5px;
+    font-size: 3vw;
+    letter-spacing: 1px;
+}
+.whySTI img {
+    width: 100%;
+    margin: 10px 0;
+}
+.whySTI h4 {
+    text-align: center;
+    font-size: 3.8vw;
+    font-family: Nobel, serif;
+    font-weight: 700;
+    color: #f3694f;
+    letter-spacing: 0.05em;
+}
+.whySTI p.desc {
+    font-size: 4vw;
+    text-align: center;
+    margin: 0 5vw;
+    line-height: 1.5;
+}
+
+/**
+ * 5. Hero banner #
+ **/
+.mobile-hero-banner {
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+/**
+ * 6. Featured content #
+ **/
+.mobile-featured-left span,
+.mobile-featured-right span,
+.mobile-featured-bottom span {
+    display: block;
+    font-weight: 700;
+    font-size: 3.2vw;
+    font-family: Nobel, serif;
+    text-transform: uppercase;
+    color: #f3694f;
+    margin: 13px 0 18px;
+    line-height: 1.3em;
+}
+.mobile-featured-left {
+    padding-left: 0;
+    padding-right: .75vw;
+}
+
+.mobile-featured-right {
+    padding-left: .75vw;
+    padding-right: 0;
+}
+
+.mobile-featured-bottom {
+    padding: 0;
+}
+
+.mobile-featured-left img,
+.mobile-featured-right img,
+.mobile-featured-bottom img {
+    margin: 0 auto;
+}
+.mobile-featured-left img,
+.mobile-featured-right img {
+    width: 49.25vw;
+    height: 49.25vw;
+}
+/**
+ * 7. Home page Why us #
+ */
+.whySTI {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.whySTI img {
+    width: 100%;
+    margin: 10px 0;
+}
+.whySTI h4 {
+    text-align: center;
+    font-size: 3.8vw;
+    font-family: Nobel, serif;
+    font-weight: 700;
+    color: #f3694f;
+    letter-spacing: 0.05em;
+}
+.whySTI p.desc {
+    font-size: 4vw;
+    text-align: center;
+    margin: 0 5vw;
+    line-height: 1.5;
+}
+.whySTI .nocal_link {
+    color: #FFFFFF;
+    font-family: Nobel, serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.16em;
+    position: absolute;
+    right: 10px;
+    text-transform: uppercase;
+    bottom: 20px;
+    display: block;
+}
+.whySTI .lightning {
+    right: 5px;
+    font-size: 3vw;
+    letter-spacing: 1px;
+}
+.whySTI .calendar {
+    position: absolute;
+    text-align: center;
+    top: 48%;
+    left: 50%;
+    transform: translate(-54%, -5%);
+    height: 14vw;
+    display: flex;
+    flex-direction: column;
+}
+.whySTI .calendar .cal_h2 {
+    font-family: Nobel, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 4vw;
+    position: relative;
+    letter-spacing: 0.08em;
+}
+
+#cal_day {
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 1vw;
+}
+.cal {
+    display: inline-block;
+    height: 100%;
+    width: 49%;
+    vertical-align: top;
+    background-image: url(//cdn1.simplytoimpress.com/images/home/bodoni_numerals.png);
+    background-size: auto 100%;
+    background-position: 0 center;
+    max-width: 7vw;
+}
+.cal.num1 {
+    background-image: url("//cdn.simplytoimpress.com/images/home/bodoni_numerals.png");
+    background-position: 11% center;
+}
+.cal.num2 {
+    background-image: url("//cdn.simplytoimpress.com/images/home/bodoni_numerals.png");
+    background-position: 22% center;
+}
+.cal.num3 {
+    background-image: url("//cdn.simplytoimpress.com/images/home/bodoni_numerals.png");
+    background-position: 33% center;
+}
+.cal.num4 {
+    background-image: url("//cdn.simplytoimpress.com/images/home/bodoni_numerals.png");
+    background-position: 44% center;
+}
+.cal.num5 {
+    background-image: url("//cdn.simplytoimpress.com/images/home/bodoni_numerals.png");
+    background-position: 55% center;
+}
+.cal.num6 {
+    background-image: url("//cdn.simplytoimpress.com/images/home/bodoni_numerals.png");
+    background-position: 66% center;
+}
+.cal.num7 {
+    background-image: url("//cdn.simplytoimpress.com/images/home/bodoni_numerals.png");
+    background-position: 78% center;
+}
+.cal.num8 {
+    background-image: url("//cdn.simplytoimpress.com/images/home/bodoni_numerals.png");
+    background-position: 89% center;
+}
+.cal.num9 {
+    background-image: url("//cdn.simplytoimpress.com/images/home/bodoni_numerals.png");
+    background-position: 100% center;
+}

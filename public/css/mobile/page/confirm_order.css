@@ -1,0 +1,81 @@
+/* 29. Confirmation Page # */
+.mobile_nav_title ul,
+#order_confirm_container ul {
+    padding-left: 40px;
+    margin-bottom: 10px !important;
+}
+.order-number{
+    color: #f16650;
+    font-family: 'Nobel', 'Source Sans Pro', sans-serif;
+    margin-top:-10px;
+}
+.confirm-list{
+    list-style-type: none;
+    font-size: 14px;
+    font-family: 'PT Sans', 'Source Sans Pro', sans-serif;
+    color: #5e524d;
+    line-height: 25px;
+}
+.confirm-totalprice {
+    font-family: 'PT Sans', 'Source Sans Pro', sans-serif;
+    font-size: 12pt;
+}
+h4.col-xs-12.text-center.active {
+    text-transform: uppercase;
+    font-family: 'Nobel', 'Source Sans Pro', sans-serif;
+    color: #5e524d;
+    margin-bottom: 15px;
+    font-size: 18px!important;
+    text-align: center;
+}
+.confirm-totalprice .text-left,
+.confirm-totalprice .cont_shpng {
+    margin-left: 15px;
+}
+.confirm-totalprice.bold_line {
+    font-weight: bold;
+}
+.confirm-list-contain{
+    margin-left:-40px;
+}
+.phone-place{
+    margin-left:5%;
+    padding-right: 0;
+}
+.phone-place img.nodiecut {
+    border: 1px solid #ccc;
+}
+.bold{
+    font-weight:bold;
+}
+.top-hr{
+    margin-top:5px;
+    border-color: gray;
+    margin-left: 30px;
+}
+.divider-hr {
+    border-color: gray;
+    margin-left: 30px;
+}
+.bottom-hr{
+    margin-top:0;
+}
+.passw_req div.fail,
+.input-note .fail {
+    color: #f00;
+}
+.passw_req div.pass,
+.input-note .pass {
+    color: #3BAC6A;
+}
+.passw_req div, .formLayout.common_login_design .passw_req div {
+    font-size: 11px;
+}
+.where_did_you_hear {
+    text-align: left;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+.guest_check_sub {
+    font-size: 1.5rem;
+}

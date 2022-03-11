@@ -1,0 +1,104 @@
+form[name="siteSearch"] {
+    display: none;
+    position: relative;
+    background-color: #dfdbd8;
+    padding-left: 6px;
+    height: 44px;
+}
+input[type=search] {
+    -webkit-appearance: none;
+}
+input.search-input, input.search-hint {
+    font: normal 400 16px "Source Sans Pro", sans-serif;
+    padding: 0 10px 0 11px;
+    width: 100%;
+    height: 28px;
+    border: none;
+    border-radius: 4px;
+    margin: 0;
+    text-align: left;
+    color: #7a7a7a;
+    outline: none;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+}
+input.search-hint {
+    left: auto !important;
+    top: auto !important;
+}
+input.search-hint {
+    background: none;
+    left: auto !important;
+    color: #aaa0a0 !important;
+}
+span.clear-search, span.clear-search-page {
+    position: relative;
+}
+span.clear-search input, span.clear-search-page input {
+    padding-right: 16px;
+}
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.search-suggestions {
+    background-color: #fff;
+    border-top: 1px solid #e6e7e8;
+    border-right: 1px solid #cbc4c2;
+    border-bottom: 1px solid #cbc4c2;
+    border-left: 1px solid #cbc4c2;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 10px;
+    width: 100%;
+    left: 11px;
+    z-index: 200 !important;
+}
+form[name="siteSearch"] input[type="submit"], form[name="searchPage"] input[type="submit"] {
+    display: inline-block;
+    position: relative;
+    background-color: #f16650;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    line-height: 30px;
+    padding: 0 11px 0 10px;
+    vertical-align: middle;
+    border-radius: 0 4px 4px 0;
+    text-transform: uppercase;
+    color: #fff;
+    height: 30px;
+}
+form[name="siteSearch"] input[type="submit"] {
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    position: absolute;
+    left: auto;
+    right: 0;
+    color: #6b6b6b;
+    height: 44px;
+    line-height: 44px;
+    width: 13%;
+    padding: 0;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: normal;
+}
+.twitter-typeahead {
+    width: 85%;
+    height: auto;
+    padding: 8px 0;
+}

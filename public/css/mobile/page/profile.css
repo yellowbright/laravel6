@@ -1,0 +1,102 @@
+/* 41. Profile page css on Mobile # */
+.formLayout.common_login_design {
+    line-height: initial;
+}
+.formLayout.common_login_design * {
+    color: #5E524D;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 16px;
+}
+.formLayout.common_login_design .form-field-margin-top {
+    margin-top: 15px;
+}
+
+.formLayout.common_login_design td, .formLayout.common_login_design th {
+    padding: 0;
+}
+.formLayout.common_login_design legend, .formLayout.verify_account h2 {
+    font-weight: 600;
+    font-family: Nobel, sans-serif;
+    font-size: 23px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+    line-height: 33px;
+    border: 0;
+}
+
+.formLayout.common_login_design .create_account_submit_btn,
+.tab-content .btn{
+    width: 100%;
+    height: 45px;
+    text-transform: uppercase;
+    margin: 15px 0 15px 0;
+    font: 800 16px/31px 'Nobel', 'Source Sans Pro', sans-serif;
+    padding: 4px 10px;
+    background-image: none;
+    background-color: #53ba83;
+    color: #fff;
+    border: 0;
+    border-left: solid 1px #53ba83;
+    border-bottom: solid 1px #53ba83;
+    cursor: pointer;
+    display: block;
+    vertical-align: text-top;
+    letter-spacing: 1.1px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.formLayout.common_login_design input[type="text"],
+.formLayout.common_login_design input[type="password"],
+.formLayout.common_login_design input[type="email"],
+.formLayout.common_login_design input[type="tel"],
+.formLayout.common_login_design select {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    box-shadow: none;
+}
+.formLayout.common_login_design input, .formLayout.common_login_design select {
+    margin-top: 15px;
+}
+input.textbox {
+    padding: 4px 1px;
+}
+input.textbox, textarea, select {
+    border: 1px solid #CBC4C2;
+    padding: 2vw;
+}
+.formLayout.common_login_design .styled_selector_wrapper #select_parent {
+    height: auto;
+    margin-bottom: 0;
+}
+.passw_req {
+    margin: 15px 0 0 15px;
+    line-height: initial;
+}
+#show_passw_req {
+    background: transparent url(//cdn.planetart.com/images/icon-question.png) no-repeat right center;
+    position: relative;
+    width: 17px;
+    height: 17px;
+    top: -31px;
+    cursor: pointer;
+    left: 370px;
+    margin-bottom: -17px;
+}
+.formLayout.common_login_design select {
+    border: 1px solid #aeaeae;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+.formLayout .where_did_you_hear {
+    margin-top: 15px;
+    padding-left: 0;
+}
+.formLayout #select_parent {
+    margin-top: 0;
+}
