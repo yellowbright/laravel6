@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b995a72419e74dbba8ce40025c8b1db7",
+    "content-hash": "edae8cd874e71ccc89cb80d9803d90ca",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -1273,6 +1273,47 @@
                 "source": "https://github.com/opis/closure/tree/3.6.2"
             },
             "time": "2021-04-09T13:42:10+00:00"
+        },
+        {
+            "name": "palucas/test_composer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PAlucash/test_composer.git",
+                "reference": "513b20dd0a06c105c5eb914ee2e1545feee898c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PAlucash/test_composer/zipball/513b20dd0a06c105c5eb914ee2e1545feee898c2",
+                "reference": "513b20dd0a06c105c5eb914ee2e1545feee898c2",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/lib/helper.php"
+                ],
+                "psr-4": {
+                    "yellow\\composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lucas Huang",
+                    "email": "lucas.huang@planetart.cn"
+                }
+            ],
+            "description": "test composer desc",
+            "support": {
+                "issues": "https://github.com/PAlucash/test_composer/issues",
+                "source": "https://github.com/PAlucash/test_composer/tree/master"
+            },
+            "time": "2022-03-11T06:15:42+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -6667,7 +6708,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "palucas/test_composer": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
